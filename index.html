@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>KhoaTran</title>
 </head>
 <body>
-    <form action="" method="post">
-        <h1>Đóng góp ý kiến cho thư viện nhà trường</h1>
-        <h2>1.Thông tin về người góp ý</h2><br>
-            
-        
-        <label>
-            Họ và tên: <input type="text" name="ten" placeholder="Nhập tên">
-        </label><br>
-        <label>
-            Nhập địa chỉ Email: <input type="email" name="email" placeholder="Nhập email">
-        </label><br><br>
-        <h2>2.Đóng góp ý kiến</h2><br>
-        <label>
-            Ý kiến thì ghi vô: <textarea name="aonhây" rows="6" cols="40" placeholder="Nhập ý kiến"></textarea>
-        </label><br><br>
-        <label>Thể loại cần bổ sung thêm</label><br><br>
-        <input type="checkbox" name="a">Truyện ngắn <br>
-        <input type="checkbox" name="a">Kĩ năng sống <br>
-        <input type="checkbox" name="a">IT <br>
-        <input type="checkbox" name="a">Truyện tranh <br>  
-        <input type="checkbox" name="a">History <br><br><br>
-        <button type="submit">Góp ý</button>
-        <button type="reset">Cancel</button>
-    </form>
+    <div class="card">
+        <form action="" method="post">
+            <h1>Đóng góp ý kiến cho thư viện nhà trường</h1>
+            <h2>1.Thông tin về người góp ý</h2><br>
+                
+            <label>
+                Họ và tên: <input class="em-na" type="text" name="ten" placeholder="Nhập tên">
+            </label><br>
+            <label>
+                Nhập địa chỉ Email: <input class="em-na" type="email" name="email" placeholder="Nhập email">
+            </label><br><br>
+            <h2>2.Đóng góp ý kiến</h2><br>
+            <label>
+                Ý kiến thì ghi vô: <textarea name="aonhây" rows="6" cols="40" placeholder="Nhập ý kiến"></textarea>
+            </label><br><br>
+            <label>Thể loại cần bổ sung thêm</label><br><br>
+            <input type="checkbox" name="a">Truyện ngắn <br>
+            <input type="checkbox" name="a">Kĩ năng sống <br>
+            <input type="checkbox" name="a">IT <br>
+            <input type="checkbox" name="a">Truyện tranh <br>  
+            <input type="checkbox" name="a">History <br><br><br>
+            <button class="ok" type="submit">Góp ý</button>
+            <button class="no" type="reset">Cancel</button>
+        </form>
+    </div>
 </body>
 </html>
